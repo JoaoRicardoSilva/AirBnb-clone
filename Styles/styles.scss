@@ -296,12 +296,25 @@ header {
 
         &__menu1 {
             grid-area: m1;
-            padding-top: 20px;
+            align-self: center;
 
             .nav-bar-tablet__title {
                 @include nav-bar-title();
+
             }
         }
+
+        & .nav-bar-tablet__menu2 {
+
+            & .nav-bar-tablet__login {
+
+                & .nav-bar-tablet__circle {
+                    top: 40px;
+                }
+            }
+        }
+
+        
     }
 
     @media (min-width: $breakpoint-computer) {
@@ -685,9 +698,10 @@ header {
     height: 110vw;
     padding: 32px 32px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 
     &__box {
-        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -724,9 +738,12 @@ header {
         width: auto;
         height: 45vw;
 
+        justify-content: initial;
+        
         &__box {
+            justify-content: center;
             align-items: initial;
-            align-content: center;
+            padding-right: 50%;
         }
     }
 
@@ -927,7 +944,6 @@ header {
                 & a {
                     color: $text-black;
                     font-weight: bold;
-                    
                     margin-right: 15px;
                 }
             }
@@ -993,11 +1009,9 @@ header {
         }
     }
 
-    @media (min-width: $breakpoint-computer) {
-        padding: 0px 80px;
-    }
 
     @media (min-width: $breakpoint-computer) {
+        padding: 0px 80px;
         &__box-father {
             display: flex;
 
@@ -1018,7 +1032,9 @@ header {
 
             & .footer__box1 {
                 order: 1;
-                align-self: flex-end;
+                display: flex;
+                align-items: center;
+
             }
         }
     }
