@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./Styles/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>airbnbclone</title>
+    </head>
+    <body>
+        <!-- Covid-->
+        <section class="covid">
+            <a href="https://www.airbnb.com/resources/hosting-homes?persona=guest" class="covid__text" target="_blank">
+                Get the latest on our COVID-19 response
+            </a>
+        </section>
+
+        <!-- Search bar phone -->
+        <section class="search-bar-phone">
+            <div class="search-bar-phone__box">
+                <i class="fas fa-search search-bar-phone__icon fa-2x"></i>
+                <input type="text" placeholder="Where are you going?" class="search-bar-phone__input">
+            </div>
+        </section>
+        
+        <header>
+            <!-- Nav bar defaut -->
+            <nav class="nav-bar-phone">
+                <div class="nav-bar-phone__box">
+                    <a href="https://www.airbnb.com/" class="nav-bar-phone__a">
+                        <i class="fas fa-search fa-2x nav-bar-phone__icon"></i>
+                        <p class="nav-bar-phone__text">Explore</p>
+                    </a>
+                </div>
+                <div class="nav-bar-phone__box">
+                    <a href="https://www.airbnb.com/wishlists" class="nav-bar-phone__a">
+                        <i class="far fa-heart fa-2x nav-bar-phone__icon"></i>
+                        <p class="nav-bar-phone__text">Whishlists</p>
+                    </a>
+                </div>
+                <div class="nav-bar-phone__box">
+                    <a href="https://www.airbnb.com/login" class="nav-bar-phone__a">
+                        <i class="far fa-user-circle fa-2x nav-bar-phone__icon"></i>
+                        <p class="nav-bar-phone__text">Log in</p>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Nav-bar Tablet-->
+            <nav class="nav-bar-tablet">
+                <a href="https://www.airbnb.co.uk/" class="nav-bar-tablet__logo">
+                    <i class="fab fa-airbnb fa-7x"></i>
+                    <img src="Images/logo computer black.png" alt="Airbnb logo">
+                </a>
+
+                <div class="nav-bar-tablet__menu1">
+                    <p class="nav-bar-tablet__title">
+                        Places to stay
+                    </p>
+                    <p class="nav-bar-tablet__title">
+                        Experiences
+                    </p>
+                    <a href="https://www.airbnb.co.uk/s/experiences/online" class="nav-bar-tablet__title">
+                        Online Experience
+                    </a>
+                </div>
+                
+                <div class="nav-bar-tablet__menu2">
+                    <a href="https://www.airbnb.co.uk/host/homes" class="nav-bar-tablet__title">
+                        Become a host
+                    </a>
+                    <button class="nav-bar-tablet__lang">
+                        <i class="fas fa-globe"></i>
+                    </button>
+                    <button class="nav-bar-tablet__login">
+                        <i class="fas fa-grip-lines"></i>
+                        <div class="nav-bar-tablet__profile">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        <div class="nav-bar-tablet__circle"></div>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Search box all-->
+            <section class="search-bar-all">
+                <div class="search-bar-all__box">
+                    <div class="search-bar-all__hover">
+                        <div class="search-bar-all__wall">
+                            <div class="search-bar-all__location">
+                                <p class="search-bar-all__bold">
+                                    Location
+                                </p>
+                                <input class="searh-bar-all-text" type="text" placeholder="Where are you going?">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="search-bar-all__hover">
+                        <div class="search-bar-all__wall">
+                            <div class="search-bar-all__check-in">
+                                <p class="search-bar-all__bold">
+                                    Check in
+                                </p>
+                                <p class="searh-bar-all-text">
+                                    Add dates
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="search-bar-all__hover">
+                        <div class="search-bar-all__wall">
+                            <div class="search-bar-all__check-out">
+                                <p class="search-bar-all__bold">Check out</p>
+                                <p class="searh-bar-all-text">
+                                    Add dates
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="search-bar-all__hover search-bar-all__hover__4">
+                        <div class="search-bar-all__wall search-bar-all__wall__4">
+                            <div class="search-bar-all__guests">
+                                <div class="search-bar-all__guests__box1">
+                                    <p class="search-bar-all__bold">
+                                        Guests
+                                    </p>
+                                    <p class="searh-bar-all-text">
+                                        Add guest
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="search-bar-all__icon-box">
+                                <i class="fas fa-search search-bar-all__icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="slogan">
+                <p class="slogan__title">
+                    The<br>
+                    Greatest<br>
+                    Outdoors
+                </p>
+                <p class="slogan__sub-title">
+                    Wishlists curated by Airbnb.
+                </p>
+                <div class="slogan__button">
+                    <p class="slogan__button-text">Get inspired</p>
+                </div>
+            </section>
+        </header>
+
+        <div class="margin">
+            <!-- Explore -->
+            <section class="explore">
+                <h2 class="explore__title">
+                    Explore nearby
+                </h2>
+                <div class="explore__grid">
+                    <a class="explore__mini-box">
+                        <img src="images/explore/quarteira.webp" alt="quarteira" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Quarteira</span>
+                            </p>
+                            <p class="explore__hours">
+                                6.5 hour drive
+                            </p>
+                        </div>
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/braga.webp" alt="braga" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Braga</span>
+                            </p>
+                            <p class="explore__hours">
+                                4 hour drive
+                            </p>
+                        </div>
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/lisboa.webp" alt="lisbon" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Lisbon</span>
+                            </p>
+                            <p class="explore__hours">
+                                45 minute drive
+                            </p>
+                        </div>                
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/vila-nova-de-mil-fontes.webp" alt="Vila Nova de Mil Fontes" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Vila Nova de Mil Fontes</span>
+                            </p>
+                            <p class="explore__hours">
+                                6.5 hour drive
+                            </p>
+                        </div>                
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/albufeira.webp" alt="Albufeira" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Albufeira</span>
+                            </p>
+                            <p class="explore__hours">
+                                6.5 hour drive
+                            </p>
+                        </div>                
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/tomar.webp" alt="Tomar" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Tomar</span>
+                            </p>
+                            <p class="explore__hours">
+                                2.5 hour drive
+                            </p> 
+                        </div>                
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/aljesur.webp" alt="Alzejur" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Aljezur</span>
+                            </p>
+                            <p class="explore__hours">
+                                6.5 hour drive
+                            </p>
+                        </div>                
+                    </a>
+                    <a class="explore__mini-box">
+                        <img src="images/explore/lagos.jpg" alt="Lago" class="explore__img">
+                        <div class="explore__description">
+                            <p class="explore__local">
+                                <span>Lagos</span>
+                            </p>
+                            <p class="explore__hours">
+                                7 hour drive
+                            </p> 
+                        </div>                
+                    </a>
+                </div>
+            </section>
+
+            <!-- Live anywhere -->
+            <section class="live">
+                <h2 class="live__title">
+                    Live anywhere
+                </h2>
+                <div class="live__grid">
+                    <a href="https://www.airbnb.com/s/homes?ne_lat=62.709274530412046&ne_lng=20.011576303733143&sw_lat=19.590725469587948&sw_lng=-37.251576303733145&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=2&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="live__mini-box">
+                        <img src="images/live/Entire homes.webp" alt="House" class="live__img">
+                        <p class="live__text">
+                            Entire homes
+                        </p>
+                    </a>
+                    <a href="https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes%2Fsection%2FNEARBY_LISTINGS%3A2400&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=5&property_type_id%5B%5D=6&property_type_id%5B%5D=8&property_type_id%5B%5D=10&property_type_id%5B%5D=12&property_type_id%5B%5D=15&property_type_id%5B%5D=16&property_type_id%5B%5D=17&property_type_id%5B%5D=18&property_type_id%5B%5D=19&property_type_id%5B%5D=23&property_type_id%5B%5D=24&property_type_id%5B%5D=25&property_type_id%5B%5D=28&property_type_id%5B%5D=32&property_type_id%5B%5D=34&property_type_id%5B%5D=44&property_type_id%5B%5D=50&property_type_id%5B%5D=54&property_type_id%5B%5D=57&property_type_id%5B%5D=58&property_type_id%5B%5D=61&property_type_id%5B%5D=63&property_type_id%5B%5D=64&property_type_id%5B%5D=66&property_type_id%5B%5D=67&property_type_id%5B%5D=68&property_type_id%5B%5D=69&property_type_id%5B%5D=62&property_type_id%5B%5D=51&title_type=CURATED_PROPERTY_TYPE" class="live__mini-box">
+                        <img src="images/live/Unique stays.webp" alt="House in the ocean" class="live__img">
+                        <p class="live__text">
+                            Unique stays
+                        </p>
+                    </a>
+                    <a href="https://www.airbnb.com/s/homes?ne_lat=62.709274530412046&ne_lng=20.011576303733143&sw_lat=19.590725469587948&sw_lng=-37.251576303733145&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=6&property_type_id%5B%5D=10&property_type_id%5B%5D=16&property_type_id%5B%5D=18&property_type_id%5B%5D=34&property_type_id%5B%5D=44&property_type_id%5B%5D=57&property_type_id%5B%5D=58&property_type_id%5B%5D=63&property_type_id%5B%5D=66&property_type_id%5B%5D=69&property_type_id%5B%5D=4&property_type_id%5B%5D=32&property_type_id%5B%5D=17&property_type_id%5B%5D=23&property_type_id%5B%5D=12&property_type_id%5B%5D=24&property_type_id%5B%5D=15&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="live__mini-box">
+                        <img src="images/live/Farms and nature.webp" alt="House in the farm" class="live__img">
+                        <p class="live__text">
+                            Farms and nature
+                        </p>
+                    </a>
+                    <a href="https://www.airbnb.com/s/homes?ne_lat=62.709274530412046&ne_lng=20.011576303733143&sw_lat=19.590725469587948&sw_lng=-37.251576303733145&room_types%5B%5D=Entire%20home%2Fapt&amenities%5B%5D=12&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="live__mini-box">
+                        <img src="images/live/Pets allowed.webp" alt="Dog" class="live__img">
+                        <p class="live__text">
+                            Pets allowed
+                        </p>
+                    </a>
+                </div>
+            </section>
+
+            <!--Become a Host-->
+            <div class="become">
+                <div class="become__box">
+                    <h3 class="become__title">
+                        Become Host
+                    </h3>
+                    <p class="become__text">
+                        Earn extra inome an unlock new opportunities by sharing your space.
+                    </p>
+                    <div class="become__btn-box">
+                        <a href="https://www.airbnb.com/host/homes?locale=en" class="become__btn">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discover Experiences -->
+            <section class="discover">
+                <h2 class="discover__title">
+                    Discover Experience
+                </h2>
+                <p class="discover__sub-title">
+                    Unique activities with local experts—in person or online.
+                </p>
+                <div class="discover__grid">
+                    <div class="discover__box">
+                        <img src="Images/Discover/experience.webp" alt="sheep" class="discover__img">
+                        <p class="discover__text-bold">
+                            Experience
+                        </p>
+                        <p class="discover__text">
+                            Local things to do, wherever you are.
+                        </p>
+                    </div>
+
+                    <div class="discover__box">
+                        <img src="Images/Discover/online.webp" alt="online meeting" class="discover__img">
+                        <p class="discover__text-bold">
+                            Online Experiences
+                        </p>
+                        <p class="discover__text">
+                            Live, interactive activities led by Hosts.
+                        </p>
+                    </div>
+
+                    <div class="discover__box">
+                        <img src="Images/Discover/Feature.webp" alt="online meeting" class="discover__img">
+                        <p class="discover__text-bold">
+                            Featured collection: Wanderlust
+                        </p>
+                        <p class="discover__text">
+                            Travel from home with Online Experiences.
+                        </p>
+                    </div>
+                </div>            
+            </section>
+
+            <!--Inspiration for future getaways-->
+
+            <section class="inspiration">
+                <h2 class="inspiration__title">
+                    Inspiration for future getaways
+                </h2>
+                <div class="inspiration__sub-title-box">
+                    <p class="inspiration__sub-title">Destinations for arts & culture</p>
+                    <p class="inspiration__sub-title">Destinations for outdoor adventure</p>
+                    <p class="inspiration__sub-title">Mountain cabins</p>
+                    <p class="inspiration__sub-title">Beach destinations</p>
+                    <p class="inspiration__sub-title">Popular destinations</p>
+                </div>
+                <div class="inspiration__grid">
+                    <a href="https://www.airbnb.com/phoenix-az/stays" class="inspiration__grid-box">
+                        <span>Phoenix</span>
+                        <p>Arizona</p>
+                    </a>
+                    <a href="https://www.airbnb.com/hot-springs-ar/stays" class="inspiration__grid-box">
+                        <span>Hot Springs</span>
+                        <p>Arkansas</p>
+                    </a>
+                    <a href="https://www.airbnb.com/los-angeles-ca/stays" class="inspiration__grid-box">
+                        <span>Los Angeles</span>
+                        <p>California</p>
+                    </a>
+                    <a href="https://www.airbnb.com/san-diego-ca/stays" class="inspiration__grid-box">
+                        <span>San Diego</span>
+                        <p>California</p>
+                    </a>
+                    <a href="https://www.airbnb.com/san-francisco-ca/stays" class="inspiration__grid-box">
+                        <span>San Francisco</span>
+                        <p>California</p>
+                    </a>
+                    <a href="https://www.airbnb.com/barcelona-spain/stays" class="inspiration__grid-box">
+                        <span>Barcelona</span>
+                        <p>Catalonia</p>
+                    </a>
+                    <a href="https://www.airbnb.com/prague-czechia/stays" class="inspiration__grid-box">
+                        <span>Prague</span>
+                        <p>Czechia</p>
+                    </a>
+                    <a href="https://www.airbnb.com/washington-dc/stays" class="inspiration__grid-box">
+                        <span>Washington</span>
+                        <p>District of Columbia</p>
+                    </a>
+                    <a href="https://www.airbnb.com/keswick-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Keswick</span>
+                        <p>England</p>
+                    </a>
+                    <a href="https://www.airbnb.com/london-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>London</span>
+                        <p>England</p>
+                    </a>
+                    <a href="https://www.airbnb.com/scarborough-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Scarborough</span>
+                        <p>England</p>
+                    </a>
+                    <a href="https://www.airbnb.com/sherwood-forest-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Sherwood Forest</span>
+                        <p>England</p>
+                    </a>
+                    <a href="https://www.airbnb.com/york-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>York</span>
+                        <p>England</p>
+                    </a>
+                    <a href="https://www.airbnb.com/paris-france/stays" class="inspiration__grid-box">
+                        <span>Paris</span>
+                        <p>France</p>
+                    </a>
+                    <a href="https://www.airbnb.com/rhodes-greece/stays" class="inspiration__grid-box">
+                        <span>Rhodes</span>
+                        <p>Greece</p>
+                    </a>
+                    <a href="https://www.airbnb.com/nashville-in/stays" class="inspiration__grid-box">
+                        <span>Nashville</span>
+                        <p>Indiana</p>
+                    </a>
+                    <a href="https://www.airbnb.com/dublin-ireland/stays" class="inspiration__grid-box">
+                        <span>Dublin</span>
+                        <p>Ireland</p>
+                    </a>
+                    <a href="https://www.airbnb.com/florence-italy/stays" class="inspiration__grid-box">
+                        <span>Florence</span>
+                        <p>Italy</p>
+                    </a>
+                    <a href="https://www.airbnb.com/rome-italy/stays" class="inspiration__grid-box">
+                        <span>Rome</span>
+                        <p>Italy</p>
+                    </a>
+                    <a href="https://www.airbnb.com/lisbon-portugal/stays" class="inspiration__grid-box">
+                        <span>Lisbon</span>
+                        <p>Lisbon</p>
+                    </a>
+                    <a href="https://www.airbnb.com/grand-isle-la/stays" class="inspiration__grid-box">
+                        <span>Grande Isle</span>
+                        <p>Louisiana</p>
+                    </a>
+                    <a href="https://www.airbnb.com/new-orleans-la/stays" class="inspiration__grid-box">
+                        <span>New Orleans</span>
+                        <p>Louisiana</p>
+                    </a>
+                    <a href="https://www.airbnb.com/marthas-vineyard-ma/stays" class="inspiration__grid-box">
+                        <span>Marthas Vineyard</span>
+                        <p>Massachusetts</p>
+                    </a>
+                    <a href="https://www.airbnb.com/south-haven-mi/stays" class="inspiration__grid-box">
+                        <span>South Haven</span>
+                        <p>Michigan</p>
+                    </a>
+                    <a href="https://www.airbnb.com/duluth-mn/stays" class="inspiration__grid-box">
+                        <span>Duluth</span>
+                        <p>Minnesota</p>
+                    </a>
+                    <a href="https://www.airbnb.com/amsterdam-netherlands/stays" class="inspiration__grid-box">
+                        <span>Amsterdam</span>
+                        <p>Netherlands</p>
+                    </a>
+                    <a href="https://www.airbnb.com/new-york-ny/stays" class="inspiration__grid-box">
+                        <span>New York</span>
+                        <p>New York</p>
+                    </a>
+                    <a href="https://www.airbnb.com/nice-france/stays" class="inspiration__grid-box">
+                        <span>Nice</span>
+                        <p>Provence-Alpes-Côte d'Azur</p>
+                    </a>
+                    <a href="https://www.airbnb.com/inverness-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Inverness</span>
+                        <p>Scotland</p>
+                    </a>
+                    <a href="https://www.airbnb.com/malaga-spain/stays" class="inspiration__grid-box">
+                        <span>Malaga</span>
+                        <p>Spain</p>
+                    </a>
+                    <a href="https://www.airbnb.com/valencia-spain/stays" class="inspiration__grid-box">
+                        <span>Valencia</span>
+                        <p>Spain</p>
+                    </a>
+                    <a href="https://www.airbnb.com/split-croatia/stays" class="inspiration__grid-box">
+                        <span>Split</span>
+                        <p>Split-Dalmatia County</p>
+                    </a>
+                    <a href="https://www.airbnb.com/nashville-tn/stays" class="inspiration__grid-box">
+                        <span>Nashville</span>
+                        <p>Tennessee</p>
+                    </a>
+                    <a href="https://www.airbnb.com/austin-tx/stays" class="inspiration__grid-box">
+                        <span>Austin</span>
+                        <p>Texas</p>
+                    </a>
+                    <a href="https://www.airbnb.com/houston-tx/stays" class="inspiration__grid-box">
+                        <span>Houston</span>
+                        <p>Texas</p>
+                    </a>
+                    <a href="https://www.airbnb.com/dartmouth-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Darthmouth</span>
+                        <p>United Kingdom</p>
+                    </a>
+                    <a href="https://www.airbnb.com/edinburgh-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Edinburgh</span>
+                        <p>United Kingdom</p>
+                    </a>
+                    <a href="https://www.airbnb.com/liverpool-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>Liverpool</span>
+                        <p>United Kingdom</p>
+                    </a>
+                    <a href="https://www.airbnb.com/st-ives-united-kingdom/stays" class="inspiration__grid-box">
+                        <span>St Ives</span>
+                        <p>United Kingdom</p>
+                    </a>
+                    <a href="https://www.airbnb.com/lake-powell/stays" class="inspiration__grid-box">
+                        <span>Lake Powell</span>
+                        <p>United States</p>
+                    </a>
+                    <a href="https://www.airbnb.com/lake-anna-va/stays" class="inspiration__grid-box">
+                        <span>Lake Anna</span>
+                        <p>Virginia</p>
+                    </a>
+                    <a href="https://www.airbnb.com/leavenworth-wa/stays" class="inspiration__grid-box">
+                        <span>Leavenworth</span>
+                        <p>Washington</p>
+                    </a>
+                    <a href="https://www.airbnb.com/seattle-wa/stays" class="inspiration__grid-box">
+                        <span>Seattle</span>
+                        <p>Washington</p>
+                    </a>             
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer__box-father">
+                <div class="footer__box">
+                    <h4 class="footer__h4">
+                        ABOUT
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="https://www.airbnb.com/d/howairbnbworks">
+                            How Airbnb works
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/press/news">
+                            Newsroom
+                        </a></li>
+                        <li><a href="https://investors.airbnb.com/">
+                            Investors
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/plus">
+                            Airbnb Plus
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/luxury">
+                            Airbnb Luxe
+                        </a></li>
+                        <li><a href="https://www.hoteltonight.com/?utm_source_name=Airbnb&utm_campaign_name=Dr_Us_Desktop_Airbnb_Footer">
+                            HotelTonight
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/work?s=footer">
+                            Airbnb for Work
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/d/video-stories-hub">
+                            Made possible by Hosts
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/careers">
+                            Careers
+                        </a></li>
+                        <li><a href="https://news.airbnb.com/what-makes-airbnb-airbnb">
+                            Founders' Letter
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h4 class="footer__h4">
+                        COMMUNITY
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="https://www.airbnb.com/diversity">
+                            Diversity & Belonging
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/against-discrimination">
+                            Against Discrimination
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/accessibility">
+                            Accessibility
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/associates?from=footer">
+                            Airbnb Associates
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/d/covid19relief">
+                            Frontline Stays
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/invite?r=6">
+                            Guest Referrals
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/gift-cards">
+                            Gift cards
+                        </a></li>
+                        <li><a href="https://www.airbnb.org/?locale=en">
+                            Airbnb.org
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h4 class="footer__h4">
+                        HOST
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="https://www.airbnb.com/host/homes?from_footer=1">
+                            Host your home
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/d/onlinehost">
+                            Host an Online Experience
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/host/experiences">
+                            Host an Experience
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/help/responsible-hosting">
+                            Responsible hosting
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/resources">
+                            Resource Center
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/help/community?s=footer">
+                            Community Center
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h4 class="footer__h4">
+                        SUPPORT
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="https://www.airbnb.com/d/covidsafety">
+                            Our COVID-19 Response
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/help?from=footer">
+                            Help Center
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19">
+                            Cancellation options
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/neighbors">
+                            Neighborhood Support
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/trust">
+                            Trust & Safety
+                        </a></li>
+                    </ul>
+                </div>
+            </div>          
+            <div class="footer__bottom">
+                <div class="footer__box1">
+                    <ul class="footer__coin-lang">
+                        <li><a href="https://www.airbnb.com/account-settings/language">
+                            <i class="fas fa-globe"></i> English (US)
+                        </a></li>
+                        <li><a href="https://www.airbnb.com/account-settings/currency">€ EUR</a></li>
+                    </ul>
+                    <ul class="footer__social">
+                        <li><a href="https://www.facebook.com/airbnb"><i class="fab fa-facebook-f "></i></a></li>
+                        <li><a href="https://twitter.com/airbnb"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com/airbnb"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <ul class="footer__copyright">
+                    <li>
+                        <i class="far fa-copyright"></i> 2021 Airbnb, Inc.
+                    </li>
+                </ul>
+                <ul class="footer__random">                        
+                    <li><a href="https://www.airbnb.com/terms/privacy_policy">
+                        Privacy
+                    </a></li>
+                    <li><a href="https://www.airbnb.com/terms">
+                        Terms
+                    </a></li>
+                    <li><a href="https://www.airbnb.com/sitemaps/v2">
+                        Sitemap
+                    </a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
