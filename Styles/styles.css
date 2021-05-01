@@ -500,7 +500,8 @@ header {
 }
 
 .slogan {
-  padding: 96px 24px 32px;
+  padding: 0px 24px 32px;
+  margin-top: 96px;
 }
 
 .slogan .slogan__title {
@@ -537,6 +538,7 @@ header {
     margin: auto 40px 40px;
     position: absolute;
     bottom: 0;
+    z-index: 0;
   }
   .slogan .slogan__title {
     font-size: 48px;
@@ -1086,17 +1088,16 @@ header {
             flex-direction: row;
     padding: 20px;
     margin: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .footer .footer__bottom .footer__box1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

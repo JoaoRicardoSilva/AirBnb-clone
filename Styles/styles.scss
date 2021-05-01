@@ -496,7 +496,8 @@ header {
 
 .slogan {
 
-    padding: 96px 24px 32px;
+    padding: 0px 24px 32px;
+    margin-top: 96px;
 
     & .slogan__title {
         color: $text-primary;
@@ -529,6 +530,7 @@ header {
         margin: auto 40px 40px;
         position: absolute;
         bottom: 0;
+        z-index: 0;
 
         & .slogan__title {
             font-size: 48px;
@@ -1029,13 +1031,14 @@ header {
             flex-direction: row;
             padding: 20px;
             margin: 0px;
+            justify-content: space-between;
+            align-content: center;
 
             & .footer__box1 {
                 order: 1;
-                display: flex;
-                align-items: center;
-
             }
+
         }
     }
 }
+
