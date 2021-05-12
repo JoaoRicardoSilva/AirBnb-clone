@@ -7,6 +7,7 @@
         "alzejur",
         "azur",
         "colorhover",
+        "covid",
         "d'azur",
         "darthmouth",
         "fontes",
@@ -17,5 +18,6 @@
         "tomar",
         "webp",
         "whishlists"
-    ]
+    ],
+    "prettier.tabWidth": 4
 }
