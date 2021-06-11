@@ -292,40 +292,6 @@ header {
         color: $background-grey;
         font-size: 14px;
     }
-
-    @media (min-width: $breakpoint-phone) {
-        background-image: url(/Images/became/become-2.jpg);
-        width: auto;
-        height: 45vw;
-
-        justify-content: initial;
-
-        &__box {
-            justify-content: center;
-            align-items: initial;
-            padding-right: 50%;
-        }
-    }
-
-    @media (min-width: $breakpoint-computer) {
-        margin-bottom: 50px;
-        & .become__title {
-            font-size: 48px;
-        }
-
-        & .become__text {
-            font-size: 18px;
-        }
-
-        & .become__btn-box {
-            padding: 14px 24px;
-
-            & .become__btn {
-                font-size: 16px;
-                font-weight: bold;
-            }
-        }
-    }
 }
 
 .discover {
@@ -361,28 +327,6 @@ header {
             & .discover__text {
                 font-size: 18px;
             }
-        }
-    }
-
-    @media (min-width: $breakpoint-phone) {
-        &__sub-title {
-            font-size: 22px;
-        }
-
-        &__grid {
-            & .discover__box {
-                & .discover__img {
-                    width: 100%;
-                    height: auto;
-                    border-radius: 10px;
-                }
-            }
-        }
-    }
-
-    @media (min-width: $breakpoint-tablet) {
-        &__sub-title {
-            font-size: 26px;
         }
     }
 }
@@ -428,26 +372,6 @@ header {
             & p {
                 color: $text-darkgrey2;
                 padding-top: 2px;
-            }
-        }
-    }
-
-    @media (min-width: $breakpoint-phone) {
-        .inspiration {
-            &__grid-box {
-                width: 33%;
-            }
-        }
-    }
-
-    @media (min-width: $breakpoint-computer) {
-        .inspiration {
-            &__sub-title-box {
-                overflow: visible;
-            }
-
-            &__grid-box {
-                width: 25%;
             }
         }
     }
@@ -528,68 +452,9 @@ header {
             }
         }
     }
-
-    @media (min-width: $breakpoint-phone) {
-        padding: 0px 40px;
-
-        & .footer__box {
-            & .footer__list {
-                display: flex;
-                flex-wrap: wrap;
-
-                & li {
-                    width: 33%;
-                }
-            }
-        }
-
-        & .footer__bottom {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            & .footer__box1 {
-                & .footer__social {
-                    display: flex;
-
-                    & a {
-                        color: $text-black;
-                        margin-left: 20px;
-                    }
-                }
-            }
-        }
-    }
-
-    @media (min-width: $breakpoint-computer) {
-        padding: 0px 80px;
-        &__box-father {
-            display: flex;
-
-            & .footer__box {
-                width: 25%;
-
-                & .footer__list {
-                    display: initial;
-                    white-space: nowrap;
-                }
-            }
-        }
-
-        & .footer__bottom {
-            flex-direction: row;
-            padding: 20px;
-            margin: 0px;
-            justify-content: space-between;
-            align-content: center;
-
-            & .footer__box1 {
-                order: 1;
-            }
-        }
-    }
 }
 
+// Breakpoint-phone
 @media (min-width: $breakpoint-phone) {
     .covid {
         background-color: $background-darkgrey;
@@ -873,8 +738,77 @@ header {
             }
         }
     }
+
+    .become {
+        background-image: url(/Images/became/become-2.jpg);
+        width: auto;
+        height: 45vw;
+
+        justify-content: initial;
+
+        &__box {
+            justify-content: center;
+            align-items: initial;
+            padding-right: 50%;
+        }
+    }
+
+    .discover {
+        &__sub-title {
+            font-size: 22px;
+        }
+
+        &__grid {
+            & .discover__box {
+                & .discover__img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .inspiration {
+        &__grid-box {
+            width: 33%;
+        }
+    }
+
+    .footer {
+        padding: 0px 40px;
+
+        & .footer__box {
+            & .footer__list {
+                display: flex;
+                flex-wrap: wrap;
+
+                & li {
+                    width: 33%;
+                }
+            }
+        }
+
+        & .footer__bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & .footer__box1 {
+                & .footer__social {
+                    display: flex;
+
+                    & a {
+                        color: $text-black;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
 }
 
+// Breakpoint-tablet
 @media (min-width: $breakpoint-tablet) {
     header {
         background-image: url(/Images/background/bk-mw950.webp);
@@ -926,8 +860,15 @@ header {
             }
         }
     }
+
+    .discover {
+        &__sub-title {
+            font-size: 26px;
+        }
+    }
 }
 
+// Breakpoint-computer
 @media (min-width: $breakpoint-computer) {
     .nav-bar-tablet {
         &__logo {
@@ -980,6 +921,64 @@ header {
                     width: 100%;
                     height: auto;
                 }
+            }
+        }
+    }
+
+    .become {
+        margin-bottom: 50px;
+        & .become__title {
+            font-size: 48px;
+        }
+
+        & .become__text {
+            font-size: 18px;
+        }
+
+        & .become__btn-box {
+            padding: 14px 24px;
+
+            & .become__btn {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .inspiration {
+        &__sub-title-box {
+            overflow: visible;
+        }
+
+        &__grid-box {
+            width: 25%;
+        }
+    }
+
+    .footer {
+        padding: 0px 80px;
+        &__box-father {
+            display: flex;
+
+            & .footer__box {
+                width: 25%;
+
+                & .footer__list {
+                    display: initial;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        & .footer__bottom {
+            flex-direction: row;
+            padding: 20px;
+            margin: 0px;
+            justify-content: space-between;
+            align-content: center;
+
+            & .footer__box1 {
+                order: 1;
             }
         }
     }
